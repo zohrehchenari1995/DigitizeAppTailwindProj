@@ -6,13 +6,13 @@
     <title>Digitize App</title>
     <link rel="stylesheet" href="/postcss/public/build/tailwind.css" />
   </head>
-  <body class="bg-gray-200">
+  <body class="bg-gray-100">
     <!-----------------------------------------------------------------MOBILE APP BAR  -->
     <div class="flex justify-between items-center mt-10 px-4 mb-4 md:hidden">
       <div>logo</div>
       <div class="text-slate-800 font-bold text-lg">ساعت هوشمند</div>
       <div
-        class="bg-white w-7 h-7 rounded flex items-center justify-center shadow-lg"
+        class="bg-white w-7 h-7 rounded flex items-center justify-center shadow-[0_2px_8px_0_rgba(0,0,0,0.13)]"
       >
         <span>
           <svg
@@ -821,7 +821,7 @@
 
               <div
                 x-text="product.title"
-                class="text-slate-800 font-medium text-sm sm:text-base lg:text-xs xl:text-base mb-2"
+                class="text-slate-800 font-medium text-xs sm:text-base lg:text-xs xl:text-base mb-2"
               ></div>
               <div
                 x-text="product.price"
@@ -963,19 +963,3 @@
 
 
 
-<template x-for="(product, index) in products" :key="product.id">
-  <div
-    :class="[
-      'bg-white rounded-xl flex flex-col justify-center items-center p-1 sm:p-2 shadow-md',
-      (index >= products.length - 2) ? 'mb-32' : 'mb-16 md:mb-9'
-    ]"
-  >
-    <div class="bg-gray-100 rounded-xl m-px p-2 mb-4">
-      <img
-        src="/postcss/assets/images/apple-watch-10-removebg-preview (1).png"
-        alt="watch"
-      />
-    </div>
-    <!-- سایر محتوای محصول -->
-  </div>
-</template>

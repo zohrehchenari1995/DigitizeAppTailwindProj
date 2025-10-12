@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/postcss/public/build/tailwind.css" />
   </head>
   <body class="bg-gray-100">
-    <!-----------------------------------------------------------------MOBILE APP BAR  -->
+    <!--------------------------------------------------------------------------MOBILE APP BAR  -->
     <div class="flex justify-between items-center mt-10 px-4 mb-6 md:hidden">
       <div
         class="bg-white w-7 h-7 rounded flex items-center justify-center shadow-[0_2px_8px_0_rgba(0,0,0,0.13)]"
@@ -53,11 +53,13 @@
         </span>
       </div>
     </div>
-    <!--END MOBILE APP BAR------------------------------------------------------------- -->
+    <!--END MOBILE APP BAR---------------------------------------------------------------------- -->
 
-    <!----------------------------------------------------------CONTENT SINGLE PRODUCT  -->
-    <!----------------------------------------------BREADCRUMBS -->
-    <div class="flex items-center gap-x-1.5 px-4 text-sm font-medium mb-8">
+    <!----------------------------------------------------------CONTENT SINGLE PRODUCT FOR MOBILE -->
+    <!----------------------------------------------MOBILE BREADCRUMBS -->
+    <div
+      class="flex items-center gap-x-1.5 px-4 text-sm font-medium mb-8 md:hidden"
+    >
       <span class="text-orange-500">📱تلفن همراه</span>
       <span class="text-slate-800">
         <svg
@@ -92,10 +94,10 @@
 
       <span class="text-gray-500">آیفون۱۳</span>
     </div>
-    <!------------------------------------------END BREADCRUMBS -->
+    <!------------------------------------------END MOBILE BREADCRUMBS -->
 
-    <!---------------------------------IMAGE && DETAILS(TITLE)  -->
-    <div class="flex flex-col items-center mb-6">
+    <!---------------------------------MOBILE IMAGE && DETAILS(TITLE)=>single product  -->
+    <div class="flex flex-col items-center mb-6 md:hidden">
       <span class="bg-red-200 flex items-center justify-center mb-10">
         <img
           src="/postcss/assets/images/iphone13-removebg-preview.png"
@@ -110,10 +112,10 @@
         >Apple Iphone 13 128 GB</span
       >
     </div>
-    <!-----------------------------END IMAGE && DETAILS(TITLE)  -->
+    <!-----------------------------END MOBILE IMAGE && DETAILS(TITLE)=>single product  -->
 
-    <!---------------------------------------------COLOR PALET  -->
-    <div class="mb-6 flex justify-around items-center w-full">
+    <!---------------------------------------------MOBILE COLOR PALET  -->
+    <div class="mb-6 flex justify-around items-center w-full md:hidden">
       <div class="font-medium text-base md:text-lg text-slate-800">
         <span>انتخاب رنگ:</span>
       </div>
@@ -205,93 +207,91 @@
         </div>
       </div>
     </div>
-    <!--END COLOR PALET---------------------------------------  -->
+    <!--END MOBILE COLOR PALET---------------------------------------  -->
 
-    <!------------------------------------MOBILE SELLER DETAIL  -->
-  
-    
-
-    <div class="px-4 flex flex-col justify-center text-xs font-medium text-slate-800">
-     <div class="flex justify-center items-center gap-x-2 mb-5">
-       <div class="flex items-center">
+    <!-------------------------------------------MOBILE SELLER DETAIL  -->
+    <div
+      class="px-4 flex flex-col justify-center text-xs font-medium text-slate-800 md:hidden"
+    >
+      <div class="flex justify-center items-center gap-x-2 mb-5">
         <div class="flex items-center">
-             <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
-            <svg
-              class="w-4 h-4 absolute top-1.5 right-1.5"
-              viewBox="0 0 14 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.75586 6.54492V9.16409C1.75586 11.7833 2.80586 12.8333 5.42503 12.8333H8.56919C11.1884 12.8333 12.2384 11.7833 12.2384 9.16409V6.54492"
-                stroke="#222F5D"
-                stroke-width="0.875"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M7.00012 6.99935C8.06762 6.99935 8.85512 6.13018 8.75012 5.06268L8.36512 1.16602H5.64095L5.25012 5.06268C5.14512 6.13018 5.93262 6.99935 7.00012 6.99935Z"
-                stroke="#222F5D"
-                stroke-width="0.875"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M10.681 6.99935C11.8593 6.99935 12.7226 6.04268 12.606 4.87018L12.4426 3.26602C12.2326 1.74935 11.6493 1.16602 10.121 1.16602H8.3418L8.75013 5.25518C8.8493 6.21768 9.71846 6.99935 10.681 6.99935Z"
-                stroke="#222F5D"
-                stroke-width="0.875"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M3.29005 6.99935C4.25255 6.99935 5.12172 6.21768 5.21505 5.25518L5.34339 3.96602L5.62339 1.16602H3.84422C2.31589 1.16602 1.73255 1.74935 1.52255 3.26602L1.36505 4.87018C1.24839 6.04268 2.11172 6.99935 3.29005 6.99935Z"
-                stroke="#222F5D"
-                stroke-width="0.875"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M7.00008 9.91602C6.02591 9.91602 5.54175 10.4002 5.54175 11.3743V12.8327H8.45841V11.3743C8.45841 10.4002 7.97425 9.91602 7.00008 9.91602Z"
-                stroke="#222F5D"
-                stroke-width="0.875"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
+          <div class="flex items-center">
+            <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
+              <svg
+                class="w-4 h-4 absolute top-1.5 right-1.5"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.75586 6.54492V9.16409C1.75586 11.7833 2.80586 12.8333 5.42503 12.8333H8.56919C11.1884 12.8333 12.2384 11.7833 12.2384 9.16409V6.54492"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7.00012 6.99935C8.06762 6.99935 8.85512 6.13018 8.75012 5.06268L8.36512 1.16602H5.64095L5.25012 5.06268C5.14512 6.13018 5.93262 6.99935 7.00012 6.99935Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.681 6.99935C11.8593 6.99935 12.7226 6.04268 12.606 4.87018L12.4426 3.26602C12.2326 1.74935 11.6493 1.16602 10.121 1.16602H8.3418L8.75013 5.25518C8.8493 6.21768 9.71846 6.99935 10.681 6.99935Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.29005 6.99935C4.25255 6.99935 5.12172 6.21768 5.21505 5.25518L5.34339 3.96602L5.62339 1.16602H3.84422C2.31589 1.16602 1.73255 1.74935 1.52255 3.26602L1.36505 4.87018C1.24839 6.04268 2.11172 6.99935 3.29005 6.99935Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7.00008 9.91602C6.02591 9.91602 5.54175 10.4002 5.54175 11.3743V12.8327H8.45841V11.3743C8.45841 10.4002 7.97425 9.91602 7.00008 9.91602Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
 
-          <span class="mr-1 mt-1">فروشنده:</span>
+            <span class="mr-1 mt-1">فروشنده:</span>
+          </div>
+          <span class="mr-1 mt-1">دیجی تایز</span>
         </div>
-        <span class="mr-1 mt-1">دیجی تایز</span>
-      </div>
-      <div class="flex items-center">
         <div class="flex items-center">
-           <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
-            <svg
-              class="w-4 h-4 absolute top-1.5 right-1.5"
-              viewBox="0 0 17 17"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7.43053 1.57973L3.89594 2.91139C3.08136 3.21598 2.41553 4.17931 2.41553 5.04348V10.3064C2.41553 11.1422 2.96803 12.2401 3.64094 12.7431L6.68678 15.0168C7.68553 15.7676 9.32886 15.7676 10.3276 15.0168L13.3734 12.7431C14.0464 12.2401 14.5989 11.1422 14.5989 10.3064V5.04348C14.5989 4.17223 13.933 3.20889 13.1184 2.90431L9.58386 1.57973C8.98178 1.36014 8.01844 1.36014 7.43053 1.57973Z"
-                stroke="#222F5D"
-                stroke-width="1.0625"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span class="mr-1 mt-1">گارانتی:</span>
+          <div class="flex items-center">
+            <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
+              <svg
+                class="w-4 h-4 absolute top-1.5 right-1.5"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.43053 1.57973L3.89594 2.91139C3.08136 3.21598 2.41553 4.17931 2.41553 5.04348V10.3064C2.41553 11.1422 2.96803 12.2401 3.64094 12.7431L6.68678 15.0168C7.68553 15.7676 9.32886 15.7676 10.3276 15.0168L13.3734 12.7431C14.0464 12.2401 14.5989 11.1422 14.5989 10.3064V5.04348C14.5989 4.17223 13.933 3.20889 13.1184 2.90431L9.58386 1.57973C8.98178 1.36014 8.01844 1.36014 7.43053 1.57973Z"
+                  stroke="#222F5D"
+                  stroke-width="1.0625"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="mr-1 mt-1">گارانتی:</span>
+          </div>
+          <span class="mr-1 mt-1">18ماه زرین خدمت</span>
         </div>
-        <span class="mr-1 mt-1">18ماه زرین خدمت</span>
       </div>
-     </div>
 
       <div class="flex items-center justify-center">
         <div class="flex items-center">
-        
-             <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
+          <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
             <svg
               class="w-4 h-4 absolute top-1.5 right-1.5"
               viewBox="0 0 16 16"
@@ -350,17 +350,614 @@
                 stroke-linejoin="round"
               />
             </svg>
-          </span> 
+          </span>
           <span class="mr-1 mt-1">ارسال توسط:</span>
         </div>
         <span class="mr-1 mt-1">انبارتهران</span>
       </div>
-     </div>
-     <!--------------------------------END MOBILE SELLER DETAIL  -->
+    </div>
+    <!---------------------------------------END MOBILE SELLER DETAIL  -->
 
+    <!--END CONTENT SINGLE PRODUCT FOR MOBILE----------------------------------------------------  -->
 
+    <!--------------------------------------------------------------------NAVBAR(MENU) FOR DESKTOP -->
 
-    <!--END CONTENT SINGLE PRODUCT----------------------------------------------------  -->
+    <nav class="md:flex bg-white mb-8 sticky top-0 shadow-lg z-10 p-4 hidden">
+      <div
+        class="container mx-auto max-w-screen-2xl flex justify-between items-center"
+      >
+        <ul class="flex items-center gap-x-0 lg:gap-x-4 text-lg text-slate-800">
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 transition-all duration-700 rounded-md hover:bg-gray-100"
+              >لوگو</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 transition-all duration-700 rounded-md hover:bg-gray-100"
+              >خانه</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 transition-all duration-700 rounded-md hover:bg-gray-100"
+              >تلفن همراه</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 transition-all duration-700 rounded-md hover:bg-gray-100"
+              >لپ تاپ</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-4 py-2 transition-all duration-700 rounded-md hover:bg-gray-100"
+              >ساعت هوشمند</a
+            >
+          </li>
+        </ul>
+
+        <!-- searchbar -->
+        <div class="flex-1 max-w-xl">
+          <div class="flex items-center rounded-lg p-1 bg-gray-100">
+            <span class="ml-3 mr-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5 text-slate-800"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </span>
+            <input
+              type="text"
+              placeholder="نام محصول،برند محصول،رنگ محصول..."
+              class="w-full p-2 bg-transparent text-slate-800 focus:outline-none"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- searchbar -->
+    </nav>
+
+    <!----------------------------------------------------------------END NAVBAR(MENU) FOR DESKTOP -->
+
+    <!---------------***CONTENT FOR: (DESKTOP BREADCRUMBS && DESKTOP SIDEBAR && DESKTOP PRODUCTS)  -->
+
+    <div
+      class="container mx-auto max-w-screen-2xl grid grid-cols-12 md:gap-8 md:grid-rows-[55px_minmax(500px,_1fr)]"
+    >
+      <!---------------------------------------SIDEBAR FOR CATEGORY  -->
+      <div
+        class="col-span-4 lg:col-span-3 xl:col-span-2 row-span-2 hidden md:block"
+      >
+        <div
+          class="bg-white rounded-xl shadow-md max-h-[calc(100vh_-_140px)] overflow-auto sticky top-28"
+        >
+          <!-- category -->
+          <div class="flex flex-col justify-center mr-3">
+            <div
+              class="mt-7 mb-5 font-bold text-lg text-orange-500 cursor-pointer"
+            >
+              دسته بندی
+            </div>
+            <div class="">
+              <ul class="">
+                <li class="mb-4 pl-3">
+                  <a
+                    href="#"
+                    class="flex items-center text-base text-slate-800 hover:bg-gray-100 rounded-lg py-2"
+                  >
+                    <span
+                      class="w-5 h-5 bg-gray-100 rounded-full block relative"
+                    >
+                      <svg
+                        class="w-4 h-4 absolute top-1.5 right-1.5"
+                        viewBox="0 0 14 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13 4.75V12.25C13 15.25 12.25 16 9.25 16H4.75C1.75 16 1 15.25 1 12.25V4.75C1 1.75 1.75 1 4.75 1H9.25C12.25 1 13 1.75 13 4.75Z"
+                          stroke="currentColor"
+                          stroke-width="1.125"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8.5 3.625H5.5"
+                          stroke="currentColor"
+                          stroke-width="1.125"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M6.9999 13.825C7.64193 13.825 8.1624 13.3045 8.1624 12.6625C8.1624 12.0205 7.64193 11.5 6.9999 11.5C6.35787 11.5 5.8374 12.0205 5.8374 12.6625C5.8374 13.3045 6.35787 13.825 6.9999 13.825Z"
+                          stroke="currentColor"
+                          stroke-width="1.125"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+
+                    <span class="mr-2 mt-0.5">تلفن همراه</span>
+                  </a>
+                </li>
+                <li class="mb-4 pl-3">
+                  <a
+                    href="#"
+                    class="flex items-center text-base text-slate-800 hover:bg-gray-100 rounded-lg py-2"
+                  >
+                    <span
+                      class="w-5 h-5 bg-gray-100 rounded-full block relative"
+                    >
+                      <svg
+                        class="w-4 h-4 absolute top-1.5 right-1.5"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.29325 1.33325H11.6999C14.0733 1.33325 14.6666 1.92659 14.6666 4.29325V8.51325C14.6666 10.8866 14.0733 11.4733 11.7066 11.4733H4.29325C1.92659 11.4799 1.33325 10.8866 1.33325 8.51992V4.29325C1.33325 1.92659 1.92659 1.33325 4.29325 1.33325Z"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8 11.4802V14.6669"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M1.33325 8.66675H14.6666"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M5 14.6667H11"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <span class="mr-2">لپ تاپ</span>
+                  </a>
+                </li>
+
+                <li class="mb-6 pl-3">
+                  <a
+                    href="#"
+                    class="flex items-center text-base text-slate-800 hover:bg-gray-100 rounded-lg py-2"
+                  >
+                    <span
+                      class="w-5 h-5 bg-gray-100 rounded-full block relative"
+                    >
+                      <svg
+                        class="w-5 h-5 absolute top-1.5 right-1"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.66659 12.6671H10.3333C11.8866 12.6671 12.6666 11.8871 12.6666 10.3337V5.66707C12.6666 4.11374 11.8866 3.33374 10.3333 3.33374H5.66659C4.11325 3.33374 3.33325 4.11374 3.33325 5.66707V10.3337C3.33325 11.8871 4.11325 12.6671 5.66659 12.6671Z"
+                          stroke="currentColor"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10.6666 1.33374H5.33325"
+                          stroke="currentColor"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10.6666 14.6663H5.33325"
+                          stroke="currentColor"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M7.66675 6.33374V8.33374H9.66675"
+                          stroke="currentColor"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    <span class="mr-2">ساعت هوشمند</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end category -->
+        </div>
+      </div>
+      <!-----------------------------------END SIDEBAR FOR CATEGORY  -->
+
+      <!----------------------------------------DESKTOP BREADCRUMBS  -->
+      <div class="col-span-8 lg:col-span-9 xl:col-span-10 hidden md:block">
+        <div class="flex items-center bg-white rounded-lg px-4">
+          <span class="text-orange-500 py-4 pl-1.5 text-lg">📱تلفن همراه</span>
+          <span class="text-slate-800 py-4 pl-1.5">
+            <svg
+              class="h-5 w-3 inline-block align-middle"
+              viewBox="0 0 7 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.48438 1.2998C5.61277 1.30204 5.73414 1.33191 5.85449 1.3916C6.00198 1.47907 6.11999 1.61367 6.18555 1.76855C6.2057 1.82414 6.24257 1.96685 6.2793 2.13184C6.29653 2.20923 6.31149 2.28178 6.32227 2.33496C6.32546 2.35073 6.32879 2.36443 6.33105 2.37598L6.33887 2.41895C6.43994 2.97725 6.5 3.92127 6.5 4.99414C6.5 5.99974 6.44066 6.90454 6.35742 7.48535C6.35559 7.49352 6.35385 7.50151 6.35254 7.50781C6.34757 7.53167 6.34142 7.56363 6.33496 7.59668C6.32138 7.66616 6.3038 7.75602 6.2832 7.85156C6.26251 7.94755 6.24011 8.0444 6.2168 8.12793C6.20516 8.16961 6.19443 8.20525 6.18457 8.2334C6.1797 8.2473 6.17526 8.25837 6.17188 8.2666C6.17031 8.2704 6.16892 8.27327 6.16797 8.27539C6.16722 8.27703 6.16617 8.278 6.16602 8.27832C6.02859 8.54672 5.76895 8.7002 5.50781 8.7002H5.48633C5.46794 8.69955 5.41528 8.69244 5.32617 8.66895C5.24333 8.64708 5.15026 8.61655 5.06152 8.58496C5.01822 8.56954 4.97769 8.5525 4.94043 8.53809L4.74023 8.45312C4.25851 8.24765 3.50644 7.8081 2.76172 7.29395C2.01518 6.77852 1.32603 6.22283 0.948242 5.80273L0.94043 5.79492L0.932617 5.78613L0.930664 5.78516C0.929295 5.78376 0.926727 5.7813 0.923828 5.77832C0.918061 5.77239 0.91005 5.76306 0.899414 5.75195C0.877694 5.72927 0.847062 5.69777 0.814453 5.66211C0.743505 5.58451 0.680957 5.50985 0.651367 5.4668L0.639648 5.45117L0.580078 5.35449C0.528324 5.25182 0.500027 5.13132 0.5 5.00488C0.5 4.81322 0.556406 4.64596 0.654297 4.51367C0.684627 4.4803 0.72397 4.43888 0.756836 4.40234C0.815392 4.33726 0.881997 4.2642 0.944336 4.2002L0.957031 4.1875C1.32615 3.78106 2.0245 3.21484 2.78809 2.68555C3.55148 2.15639 4.32536 1.70142 4.83008 1.49805L4.83887 1.49414C4.90663 1.46525 5.04048 1.41471 5.18164 1.37109C5.32907 1.32556 5.43679 1.30318 5.48438 1.2998Z"
+                stroke="#222F5D"
+              />
+            </svg>
+          </span>
+
+          <span class="text-orange-500 py-4 pl-1.5 text-lg">🍎برندآیفون</span>
+          <span class="text-slate-800 py-4 pl-1.5">
+            <svg
+              class="h-5 w-3 inline-block align-middle"
+              viewBox="0 0 7 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.48438 1.2998C5.61277 1.30204 5.73414 1.33191 5.85449 1.3916C6.00198 1.47907 6.11999 1.61367 6.18555 1.76855C6.2057 1.82414 6.24257 1.96685 6.2793 2.13184C6.29653 2.20923 6.31149 2.28178 6.32227 2.33496C6.32546 2.35073 6.32879 2.36443 6.33105 2.37598L6.33887 2.41895C6.43994 2.97725 6.5 3.92127 6.5 4.99414C6.5 5.99974 6.44066 6.90454 6.35742 7.48535C6.35559 7.49352 6.35385 7.50151 6.35254 7.50781C6.34757 7.53167 6.34142 7.56363 6.33496 7.59668C6.32138 7.66616 6.3038 7.75602 6.2832 7.85156C6.26251 7.94755 6.24011 8.0444 6.2168 8.12793C6.20516 8.16961 6.19443 8.20525 6.18457 8.2334C6.1797 8.2473 6.17526 8.25837 6.17188 8.2666C6.17031 8.2704 6.16892 8.27327 6.16797 8.27539C6.16722 8.27703 6.16617 8.278 6.16602 8.27832C6.02859 8.54672 5.76895 8.7002 5.50781 8.7002H5.48633C5.46794 8.69955 5.41528 8.69244 5.32617 8.66895C5.24333 8.64708 5.15026 8.61655 5.06152 8.58496C5.01822 8.56954 4.97769 8.5525 4.94043 8.53809L4.74023 8.45312C4.25851 8.24765 3.50644 7.8081 2.76172 7.29395C2.01518 6.77852 1.32603 6.22283 0.948242 5.80273L0.94043 5.79492L0.932617 5.78613L0.930664 5.78516C0.929295 5.78376 0.926727 5.7813 0.923828 5.77832C0.918061 5.77239 0.91005 5.76306 0.899414 5.75195C0.877694 5.72927 0.847062 5.69777 0.814453 5.66211C0.743505 5.58451 0.680957 5.50985 0.651367 5.4668L0.639648 5.45117L0.580078 5.35449C0.528324 5.25182 0.500027 5.13132 0.5 5.00488C0.5 4.81322 0.556406 4.64596 0.654297 4.51367C0.684627 4.4803 0.72397 4.43888 0.756836 4.40234C0.815392 4.33726 0.881997 4.2642 0.944336 4.2002L0.957031 4.1875C1.32615 3.78106 2.0245 3.21484 2.78809 2.68555C3.55148 2.15639 4.32536 1.70142 4.83008 1.49805L4.83887 1.49414C4.90663 1.46525 5.04048 1.41471 5.18164 1.37109C5.32907 1.32556 5.43679 1.30318 5.48438 1.2998Z"
+                stroke="#222F5D"
+              />
+            </svg>
+          </span>
+
+          <span class="text-gray-500 py-4 text-lg">آیفون۱۳</span>
+        </div>
+      </div>
+      <!--------------------------------------END DESKTOP BREADCRUMBS -->
+
+      <!----------------------------------------------------------------DESKTOP PRODUCTS SECTION  -->
+      <div
+        class="col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10 hidden md:block"
+      >
+        <div class="flex bg-white rounded-lg px-4 shadow-lg">
+          <!-- single product(image && text && color palet && other detail products property) -->
+          <div class="flex px-4 flex-auto my-4">
+            <!-- img -->
+            <div class="w-4/5 max-w-xs md:w-auto rounded-lg">
+              <img
+                class="w-full h-auto"
+                src="/postcss/assets/images/iphone13-removebg-preview.png"
+                alt=""
+              />
+            </div>
+            <!-- end img -->
+
+            <!-- color palet && text description -->
+            <div class="flex flex-col">
+              <div class="flex flex-col w-full md:w-auto">
+                <h1
+                  class="mb-2 md:text-xs lg:text-sm xl:text-xl font-medium text-slate-800"
+                >
+                  گوشی آیفون۱۳ ۱۲۸ گیگابایت
+                </h1>
+                <h2
+                  class="text-sm md:text-sm lg:text-lg font-medium text-slate-500 mb-4"
+                >
+                  Apple Iphone 13 128 GB
+                </h2>
+                <hr class="hidden md:block" />
+              </div>
+              <div class="mb-6 flex w-full mt-6 items-center">
+                <div
+                  class="font-medium text-xs md:text-sm lg:text-xl text-slate-800 flex whitespace-nowrap"
+                >
+                  <span class="ml-5 inline-block">انتخاب رنگ:</span>
+                </div>
+                <!-- color palet -->
+                <div x-data="{color:'red'}" class="flex items-center">
+                  <div
+                    @click="color='red'"
+                    :class="color==='red'? 'ring-2 ring-red-600' : '' "
+                    class="w-7 h-7 sm:w-8 sm:h-8 md:w-6 md:h-6 lg:w-8 lg:h-8  rounded-full cursor-pointer border-2 border-white -mr-1 flex justify-center items-center bg-red-600"
+                  >
+                    <svg
+                      x-show="color==='red'"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 md:w-6 md:h-6 stroke-white"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    @click="color='blue'"
+                    :class="color==='blue'?'ring-2 ring-blue-600' : '' "
+                    class="w-7 h-7 sm:w-8 sm:h-8  md:w-6 md:h-6 lg:w-8 lg:h-8 rounded-full border-2 border-white -mr-1 flex justify-center items-center bg-blue-600"
+                  >
+                    <svg
+                      x-show="color==='blue'"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 md:w-6 md:h-6 stroke-white"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    @click="color='yellow'"
+                    :class="color==='yellow'?'ring-2 ring-yellow-400' : '' "
+                    class="w-7 h-7 sm:w-8 sm:h-8  md:w-6 md:h-6 lg:w-8 lg:h-8 rounded-full border-2 border-white -mr-1 flex justify-center items-center focus:ring-offset-2 focus:ring-yellow-400 bg-yellow-400"
+                  >
+                    <svg
+                      x-show="color==='yellow'"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 md:w-6 md:h-6 stroke-white"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    @click="color='green'"
+                    :class="color==='green'?'ring-2 ring-green-600' : '' "
+                    class="w-7 h-7 sm:w-8 sm:h-8 md:w-6 md:h-6 lg:w-8 lg:h-8 rounded-full border-2 border-white -mr-1 flex justify-center items-center focus:ring-offset-2 focus:ring-green-600 bg-green-600"
+                  >
+                    <svg
+                      x-show="color==='green'"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-5 h-5 md:w-6 md:h-6 stroke-white"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <!-- text description -->
+              <div>
+                <h1 class="md:text-base lg:text-lg text-slate-800 mb-2 font-medium">ویژگی های کالا:</h1>
+                <div class="flex flex-col  lg:flex-row">
+                  <div class="flex items-center relative">
+                    <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5 lg:top-3"></span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">حافظه داخلی:</span>
+                  </div>
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">۱۲۸ گیگابایت</span>
+                </div>
+
+                <div class="flex flex-col lg:flex-row">
+                  <div class="flex items-center relative">
+                    <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5 lg:top-3"></span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">بازه صفحه نمایش:</span>
+                  </div>
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">۰.۶ اینچ و بزرگ تر</span>
+                </div>
+
+                <div class="flex flex-col lg:flex-row">
+                  <div class="flex items-center relative">
+                    <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5  lg:top-3.5"></span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">شبکه های ارتباطی:</span>
+                  </div> 
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-2.5">2G 3G 4G 5G</span>
+                </div>
+              </div>
+              <!-- end text description -->
+            </div>
+            <!--end color palet && text description -->
+          </div>
+          <!--end single product(image && text && color palet && other detail products property) -->
+
+          <!--seller-detail-->
+          <div class="bg-gray-200 md:w-3/4 lg:w-2/4 xl:w-1/4 my-4 rounded-lg px-2 lg:px-4">
+            <div
+      class=" flex flex-col justify-center text-xs lg:text-sm  font-medium text-slate-800 py-4 mb-24 lg:mb-10"
+    >
+    
+        <div class="flex items-center py-2">
+          <div class="flex items-center">
+            <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
+              <svg
+                class="w-4 h-4 absolute top-1.5 right-1.5"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.75586 6.54492V9.16409C1.75586 11.7833 2.80586 12.8333 5.42503 12.8333H8.56919C11.1884 12.8333 12.2384 11.7833 12.2384 9.16409V6.54492"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7.00012 6.99935C8.06762 6.99935 8.85512 6.13018 8.75012 5.06268L8.36512 1.16602H5.64095L5.25012 5.06268C5.14512 6.13018 5.93262 6.99935 7.00012 6.99935Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.681 6.99935C11.8593 6.99935 12.7226 6.04268 12.606 4.87018L12.4426 3.26602C12.2326 1.74935 11.6493 1.16602 10.121 1.16602H8.3418L8.75013 5.25518C8.8493 6.21768 9.71846 6.99935 10.681 6.99935Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.29005 6.99935C4.25255 6.99935 5.12172 6.21768 5.21505 5.25518L5.34339 3.96602L5.62339 1.16602H3.84422C2.31589 1.16602 1.73255 1.74935 1.52255 3.26602L1.36505 4.87018C1.24839 6.04268 2.11172 6.99935 3.29005 6.99935Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7.00008 9.91602C6.02591 9.91602 5.54175 10.4002 5.54175 11.3743V12.8327H8.45841V11.3743C8.45841 10.4002 7.97425 9.91602 7.00008 9.91602Z"
+                  stroke="#222F5D"
+                  stroke-width="0.875"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+
+            <span class="mr-2 mt-1">فروشنده:</span>
+          </div>
+          <span class="mr-1 mt-1">دیجی تایز</span>
+        </div>
+        <div class="flex items-center py-2">
+          <div class="flex items-center">
+            <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
+              <svg
+                class="w-4 h-4  absolute top-1.5 right-1.5"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.43053 1.57973L3.89594 2.91139C3.08136 3.21598 2.41553 4.17931 2.41553 5.04348V10.3064C2.41553 11.1422 2.96803 12.2401 3.64094 12.7431L6.68678 15.0168C7.68553 15.7676 9.32886 15.7676 10.3276 15.0168L13.3734 12.7431C14.0464 12.2401 14.5989 11.1422 14.5989 10.3064V5.04348C14.5989 4.17223 13.933 3.20889 13.1184 2.90431L9.58386 1.57973C8.98178 1.36014 8.01844 1.36014 7.43053 1.57973Z"
+                  stroke="#222F5D"
+                  stroke-width="1.0625"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="mr-2 mt-1">گارانتی:</span>
+          </div>
+          <span class="mr-1 mt-1">18ماه زرین خدمت</span>
+        </div>
+        <div class="flex items-center py-2">
+        <div class="flex items-center">
+          <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
+            <svg
+              class="w-4 h-4  absolute top-1.5 right-1.5"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.99992 1.33301V7.99967C9.99992 8.73301 9.39992 9.33301 8.66659 9.33301H1.33325V5.07967C1.81992 5.65967 2.5666 6.01967 3.39327 5.99967C4.0666 5.98634 4.67325 5.72634 5.12659 5.29301C5.33325 5.11968 5.5066 4.89967 5.63993 4.65967C5.87993 4.253 6.01325 3.77299 5.99992 3.27299C5.97992 2.49299 5.63326 1.80634 5.09326 1.33301H9.99992Z"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M14.6666 9.33301V11.333C14.6666 12.4397 13.7733 13.333 12.6666 13.333H11.9999C11.9999 12.5997 11.3999 11.9997 10.6666 11.9997C9.93325 11.9997 9.33325 12.5997 9.33325 13.333H6.66659C6.66659 12.5997 6.06659 11.9997 5.33325 11.9997C4.59992 11.9997 3.99992 12.5997 3.99992 13.333H3.33325C2.22659 13.333 1.33325 12.4397 1.33325 11.333V9.33301H8.66659C9.39992 9.33301 9.99992 8.73301 9.99992 7.99967V3.33301H11.2266C11.7066 3.33301 12.1466 3.59301 12.3866 4.00635L13.5266 5.99967H12.6666C12.2999 5.99967 11.9999 6.29967 11.9999 6.66634V8.66634C11.9999 9.03301 12.2999 9.33301 12.6666 9.33301H14.6666Z"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M5.33333 14.6667C6.06971 14.6667 6.66667 14.0697 6.66667 13.3333C6.66667 12.597 6.06971 12 5.33333 12C4.59695 12 4 12.597 4 13.3333C4 14.0697 4.59695 14.6667 5.33333 14.6667Z"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M10.6666 14.6667C11.403 14.6667 11.9999 14.0697 11.9999 13.3333C11.9999 12.597 11.403 12 10.6666 12C9.93021 12 9.33325 12.597 9.33325 13.3333C9.33325 14.0697 9.93021 14.6667 10.6666 14.6667Z"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M14.6667 8V9.33333H12.6667C12.3 9.33333 12 9.03333 12 8.66667V6.66667C12 6.3 12.3 6 12.6667 6H13.5267L14.6667 8Z"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6.00008 3.33268C6.00008 4.13268 5.64676 4.84602 5.09342 5.33268C4.62009 5.74602 4.00675 5.99935 3.33341 5.99935C1.86008 5.99935 0.666748 4.80602 0.666748 3.33268C0.666748 2.49268 1.05341 1.73935 1.66675 1.25269C2.12675 0.886019 2.70675 0.666016 3.33341 0.666016C4.80675 0.666016 6.00008 1.85935 6.00008 3.33268Z"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3.50008 2.49902V3.49902L2.66675 3.99902"
+                stroke="#222F5D"
+                stroke-width="1.125"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span class="mr-2 mt-1">ارسال توسط:</span>
+        </div>
+        <span class="mr-1 mt-1">انبارتهران</span>
+        </div>
+      </div>
+
+            <div class="flex lg:justify-end  px-4  lg:mb-4 whitespace-nowrap justify-center items-center">
+              <span class="md:text-sm lg:text-lg text-orange-500 font-medium">۲۸,۲۵۰,۰۰۰</spanclass>
+              <span class="md:text-xs lg:text-base text-orange-500 ">تومان</span>
+            </div>
+
+            <div class="flex items-center justify-center bg-orange-500 rounded-lg py-3  md:text-sm lg:text-lg whitespace-nowrap my-4">
+              <button class="text-white">اضافه به سبد خرید</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--END DESKTOP PRODUCT SECTION------------------------------------------------------------  -->
+    </div>
+    <!--***END CONTENT FOR: DESKTOP BREADCRUMBS && DESKTOP SIDEBAR && DESKTOP PRODUCTS--------------->
 
     <script
       defer
@@ -368,8 +965,3 @@
     ></script>
   </body>
 </html>
-
-
-
-
-

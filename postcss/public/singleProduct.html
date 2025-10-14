@@ -96,23 +96,23 @@
     </div>
     <!------------------------------------------END MOBILE BREADCRUMBS -->
 
-    <!---------------------------------MOBILE IMAGE && DETAILS(TITLE)=>single product  -->
+    <!-----------------MOBILE IMAGE && DETAILS(TITLE)=>single product  -->
     <div class="flex flex-col items-center mb-6 md:hidden">
-      <span class="bg-red-200 flex items-center justify-center mb-10">
-        <img
-          src="/postcss/assets/images/iphone13-removebg-preview.png"
+      <span class="flex items-center justify-center mb-10 w-4/5 max-w-[250px]">
+        <img 
+          src="/postcss/assets/images/iphone17-removebg-preview.png"
           alt=""
         />
       </span>
 
       <span class="mb-2 text-lg font-medium text-slate-800"
-        >گوشی آیفون۱۳ ۱۲۸ گیگابایت</span
+        >گوشی آیفون 17 512 گیگابایت</span
       >
       <span class="text-sm font-medium text-slate-500"
-        >Apple Iphone 13 128 GB</span
+        >Apple Iphone 17 256 GB</span
       >
     </div>
-    <!-----------------------------END MOBILE IMAGE && DETAILS(TITLE)=>single product  -->
+    <!-------------END MOBILE IMAGE && DETAILS(TITLE)=>single product  -->
 
     <!---------------------------------------------MOBILE COLOR PALET  -->
     <div class="mb-6 flex justify-around items-center w-full md:hidden">
@@ -211,9 +211,9 @@
 
     <!-------------------------------------------MOBILE SELLER DETAIL  -->
     <div
-      class="px-4 flex flex-col justify-center text-xs font-medium text-slate-800 md:hidden"
+      class="px-4 flex flex-col justify-center text-xs font-medium text-slate-800 md:hidden mb-7"
     >
-      <div class="flex justify-center items-center gap-x-2 mb-5">
+      <div class="flex justify-center items-center gap-x-1 mb-5">
         <div class="flex items-center">
           <div class="flex items-center">
             <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
@@ -357,6 +357,37 @@
       </div>
     </div>
     <!---------------------------------------END MOBILE SELLER DETAIL  -->
+
+    <!------------------MOBILE TEXT DESCRIPTION(FOR PRODUCT PROPERTY)  -->
+ 
+          <div class="px-4 bg-white mx-5 rounded-lg shadow-lg md:hidden">
+              <h1 class="md:text-base lg:text-lg text-slate-800 mb-5 font-medium pt-5">ویژگی های کالا:</h1>
+                <div class="flex flex-col  lg:flex-row">
+                  <div class="flex items-center relative">
+                    <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5 lg:top-3"></span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">حافظه داخلی:</span>
+                  </div>
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">۱۲۸ گیگابایت</span>
+                </div>
+
+                <div class="flex flex-col lg:flex-row">
+                  <div class="flex items-center relative">
+                    <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5 lg:top-3"></span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">بازه صفحه نمایش:</span>
+                  </div>
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">۰.۶ اینچ و بزرگ تر</span>
+                </div>
+
+                <div class="flex flex-col lg:flex-row">
+                  <div class="flex items-center relative">
+                    <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5  lg:top-3.5"></span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">شبکه های ارتباطی:</span>
+                  </div> 
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-2.5">2G 3G 4G 5G</span>
+                </div>
+          </div>
+   
+    <!------------------MOBILE TEXT DESCRIPTION(FOR PRODUCT PROPERTY)  -->
 
     <!--END CONTENT SINGLE PRODUCT FOR MOBILE----------------------------------------------------  -->
 
@@ -598,7 +629,7 @@
       <!-----------------------------------END SIDEBAR FOR CATEGORY  -->
 
       <!----------------------------------------DESKTOP BREADCRUMBS  -->
-      <div class="col-span-8 lg:col-span-9 xl:col-span-10 hidden md:block">
+      <div class="col-span-8 lg:col-span-9 xl:col-span-10 hidden md:block cursor-pointer">
         <div class="flex items-center bg-white rounded-lg px-4">
           <span class="text-orange-500 py-4 pl-1.5 text-lg">📱تلفن همراه</span>
           <span class="text-slate-800 py-4 pl-1.5">
@@ -639,39 +670,65 @@
       <div
         class="col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10 hidden md:block"
       >
-        <div class="flex bg-white rounded-lg px-4 shadow-lg">
+        <div class="flex bg-white rounded-lg  shadow-lg px-3.5">
           <!-- single product(image && text && color palet && other detail products property) -->
-          <div class="flex px-4 flex-auto my-4">
+          <div class="flex   md:px-0 flex-auto my-4">
             <!-- img -->
-            <div class="w-4/5 max-w-xs md:w-auto rounded-lg">
+            <div class="w-4/5  lg:max-w-xs  md:w-auto  rounded-lg flex flex-col mb-10 px-1">
               <img
-                class="w-full h-auto"
-                src="/postcss/assets/images/iphone13-removebg-preview.png"
+                class="mb-6"
+                src="/postcss/assets/images/iphone17-removebg-preview.png"
                 alt=""
               />
+               <div class="flex flex-row  justify-evenly">
+
+                <div class="md:w-7 md:h-9 lg:w-10 lg:h-12 bg-white shadow-lg flex justify-center items-center mx-0.5 rounded-lg border-2 border-gray-300 ">
+                    <img class="md:w-7 md:h-9 lg:w-10 lg:h-12"
+                class=""
+                src="/postcss/assets/images/iphone17mini5-removebg-preview.png"
+                alt=""
+              />
+                </div>
+                <div class="md:w-7 md:h-19 lg:w-10 lg:h-12 bg-white shadow-lg flex justify-center items-center mx-0.5 rounded-lg border-2 border-gray-300 "> 
+                    <img class="md:w-7 md:h-9 lg:w-10 lg:h-12"
+                class=""
+                src="/postcss/assets/images/iphone17-removebg-preview.png"
+                alt=""
+              />
+                </div>
+                <div class="md:w-7 md:h-9 lg:w-10 lg:h-12 bg-white shadow-lg flex justify-center items-center mx-0.5 rounded-lg border-2 border-gray-300 ">
+                    <img class="md:w-7 md:h-9 lg:w-10 lg:h-12"
+                class=""
+                src="/postcss/assets/images/iphone17mini6-removebg-preview (1).png"
+                alt=""
+              />
+                </div>
+               
+              </div>
             </div>
             <!-- end img -->
 
             <!-- color palet && text description -->
-            <div class="flex flex-col">
-              <div class="flex flex-col w-full md:w-auto">
+            <div class="flex flex-col  mx-3 ">
+              <div class="flex flex-col w-full md:w-auto mt-1">
                 <h1
                   class="mb-2 md:text-xs lg:text-sm xl:text-xl font-medium text-slate-800"
                 >
-                  گوشی آیفون۱۳ ۱۲۸ گیگابایت
+                  گوشی آیفون17 256 گیگابایت
                 </h1>
                 <h2
                   class="text-sm md:text-sm lg:text-lg font-medium text-slate-500 mb-4"
                 >
-                  Apple Iphone 13 128 GB
+                  Apple Iphone 17 256 GB
                 </h2>
                 <hr class="hidden md:block" />
               </div>
+            
               <div class="mb-6 flex w-full mt-6 items-center">
                 <div
                   class="font-medium text-xs md:text-sm lg:text-xl text-slate-800 flex whitespace-nowrap"
                 >
-                  <span class="ml-5 inline-block">انتخاب رنگ:</span>
+                  <span class="ml-2 inline-block">انتخاب رنگ:</span>
                 </div>
                 <!-- color palet -->
                 <div x-data="{color:'red'}" class="flex items-center">
@@ -761,14 +818,14 @@
                   </div>
                 </div>
               </div>
-
+                <!--end color palst  -->
               <!-- text description -->
               <div>
-                <h1 class="md:text-base lg:text-lg text-slate-800 mb-2 font-medium">ویژگی های کالا:</h1>
+                <h1 class="md:text-base lg:text-base text-slate-800 mb-3 font-medium">ویژگی های کالا:</h1>
                 <div class="flex flex-col  lg:flex-row">
                   <div class="flex items-center relative">
                     <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5 lg:top-3"></span>
-                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">حافظه داخلی:</span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-3">حافظه داخلی:</span>
                   </div>
                   <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">۱۲۸ گیگابایت</span>
                 </div>
@@ -776,15 +833,15 @@
                 <div class="flex flex-col lg:flex-row">
                   <div class="flex items-center relative">
                     <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5 lg:top-3"></span>
-                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">بازه صفحه نمایش:</span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-3">بازه صفحه نمایش:</span>
                   </div>
-                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">۰.۶ اینچ و بزرگ تر</span>
+                  <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-1">0.6اینچ وبزرگتر</span>
                 </div>
 
                 <div class="flex flex-col lg:flex-row">
                   <div class="flex items-center relative">
                     <span class="w-1.5 h-1.5 bg-orange-500 rounded-full absolute top-1.5  lg:top-3.5"></span>
-                    <span class="text-slate-600 mb-0.5 text-sm mr-2.5">شبکه های ارتباطی:</span>
+                    <span class="text-slate-600 mb-0.5 text-sm mr-3">شبکه های ارتباطی:</span>
                   </div> 
                   <span class="text-slate-700  mb-2 text-sm font-medium mr-2.5 lg:mr-1.5 lg:mt-2.5">2G 3G 4G 5G</span>
                 </div>
@@ -792,17 +849,19 @@
               <!-- end text description -->
             </div>
             <!--end color palet && text description -->
+
+           
           </div>
           <!--end single product(image && text && color palet && other detail products property) -->
 
           <!--seller-detail-->
-          <div class="bg-gray-200 md:w-3/4 lg:w-2/4 xl:w-1/4 my-4 rounded-lg px-2 lg:px-4">
+          <div class=" md:w-3/4 lg:w-2/4 xl:w-1/4 my-4 ">
             <div
-      class=" flex flex-col justify-center text-xs lg:text-sm  font-medium text-slate-800 py-4 mb-24 lg:mb-10"
+      class="bg-gray-200 rounded-lg  flex flex-col justify-center text-xs lg:text-sm  font-medium text-slate-800 md:px-2 lg:px-4 "
     >
     
-        <div class="flex items-center py-2">
-          <div class="flex items-center">
+        <div class="flex items-center py-1.5">
+          <div class="flex items-center ">
             <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
               <svg
                 class="w-4 h-4 absolute top-1.5 right-1.5"
@@ -852,7 +911,7 @@
           </div>
           <span class="mr-1 mt-1">دیجی تایز</span>
         </div>
-        <div class="flex items-center py-2">
+        <div class="flex items-center py-1.5">
           <div class="flex items-center">
             <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
               <svg
@@ -874,7 +933,7 @@
           </div>
           <span class="mr-1 mt-1">18ماه زرین خدمت</span>
         </div>
-        <div class="flex items-center py-2">
+        <div class="flex items-center py-1.5 mb-10">
         <div class="flex items-center">
           <span class="w-5 h-5 bg-gray-100 rounded-full block relative">
             <svg
@@ -940,16 +999,18 @@
         </div>
         <span class="mr-1 mt-1">انبارتهران</span>
         </div>
-      </div>
 
-            <div class="flex lg:justify-end  px-4  lg:mb-4 whitespace-nowrap justify-center items-center">
-              <span class="md:text-sm lg:text-lg text-orange-500 font-medium">۲۸,۲۵۰,۰۰۰</spanclass>
+          <div class="flex lg:justify-end  px-4 mb-1 whitespace-nowrap justify-center items-center">
+              <span class="md:text-sm lg:text-lg text-orange-500 font-medium">۲۸,۲۵۰,۰۰۰</span>
               <span class="md:text-xs lg:text-base text-orange-500 ">تومان</span>
             </div>
 
-            <div class="flex items-center justify-center bg-orange-500 rounded-lg py-3  md:text-sm lg:text-lg whitespace-nowrap my-4">
-              <button class="text-white">اضافه به سبد خرید</button>
+            <div class="flex items-center justify-center bg-orange-500 rounded-md py-3  md:text-sm lg:text-base whitespace-nowrap my-4 text-white">
+              <button >اضافه به سبد خرید</button>
             </div>
+      </div>
+
+          
           </div>
 
         </div>

@@ -24,7 +24,7 @@ Beyond its technical demonstration, the site highlights my ability to implement 
 
 Clone the repository:
 
-git clone https://github.com/yourusername/digitize-store.git
+git clone https://github.com/zohrehchenari1995/DigitizeAppTailwindProj
 
 Open index.html in your browser to view the website.
 

@@ -6,6 +6,9 @@ This project is part of my portfolio and highlights my front-end development ski
 
 The goal of the DigiTize project is to demonstrate practical front-end development skills by building a clean, fully responsive e-commerce website for smart watches and gadgets.
 It features a sidebar navigation, interactive product grids, and a modern layout, showcasing how Tailwind CSS can be used to efficiently create scalable and user-friendly interfaces.
+
+In addition to its technical demonstration, DigiTize represents a real-world e-commerce concept where users can browse smart watches and digital gadgets, explore detailed product pages, and navigate categories efficiently. The project simulates an online shopping experience, focusing on usability, structured product presentation, and responsive design to reflect how a modern digital store operates.
+
 Beyond its technical demonstration, the site highlights my ability to implement responsive design and optimize layouts for mobile, tablet, and desktop screens.
 
 ## ✨ Features
@@ -15,6 +18,8 @@ Beyond its technical demonstration, the site highlights my ability to implement 
 📚 Sidebar for easy category navigation
 
 🛒 Product showcase grid with hover effects
+
+📄 Dedicated product details page
 
 ✅ Clean, modern UI with intuitive header and footer
 
@@ -45,4 +50,3 @@ digitize-store/
 ⚡ HTML5 & CSS3
 
 🎨 Tailwind CSS (utility-first styling framework)
-
